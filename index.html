@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Staveya Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets.css">
+
+</head>
+<body>
+    <main>
+        <h1 class="logo">Staveya Timer</h1>
+        <div class="work_timer">
+            <h1 class="header">Work Time</h1>
+            <div class="timer">
+                <button class="plus" id="w_plus_button" onclick="plus(document.getElementById('w_minutes'))"><img src="img/plus.png" alt="+"></button>
+                <div class="time">
+                    <div class="minutes" id="w_minutes">25</div>
+                    <div class="dots">:</div>
+                    <div class="seconds" id="w_seconds">00</div>
+                </div>
+                <button class="minus" id="w_minus_button" onclick="minus(document.getElementById('w_minutes'))"><img src="img/minus.png" alt="-"></button>
+            </div>
+            <div class="controls">
+                <button class="start" id="start_button" onclick="start()"><img src="img/Start%20button.png" alt="Start" id="start_img"></button>
+                <button class="stop" id="stop_button" onclick="stop()"><img src="img/Stop%20button.png" alt="Stop"></button>
+            </div>
+        </div>
+        <div class="break_timer">
+            <div class="timer">
+                <button class="plus" id="b_plus_button" onclick="plus(document.getElementById('b_minutes'))"><img src="img/plus.png" alt="+"></button>
+                <div class="time">
+                    <div class="minutes" id="b_minutes">05</div>
+                    <div class="dots">:</div>
+                    <div class="seconds" id="b_seconds">00</div>
+                </div>
+                <button class="minus" id="b_minus_button" onclick="minus(document.getElementById('b_minutes'))"><img src="img/minus.png" alt="-"></button>
+            </div>
+            <h1 class="header">Break Time</h1>
+        </div>
+    </main>
+    <script src="Timer-2.js"></script>
+</body>
+</html>

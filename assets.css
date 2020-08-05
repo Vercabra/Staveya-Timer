@@ -1,0 +1,139 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-top: 12px solid #B592EC;
+}
+
+main{
+    position: relative;
+    bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 96pt;
+    font-style: normal;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.logo{
+    position: relative;
+    right: 745px;
+    top: 50px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 85px;
+    text-align: center;
+    color: #B592EC;
+    text-shadow: 3px 3px 10px rgba(118, 51, 227, 0.42);
+}
+
+.work_timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #D8C3FB;
+}
+
+.break_timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 87px;
+    padding-bottom: 0;
+    margin-bottom: 12px;
+    border: 2px solid #D8C3FB;
+    border-top: unset;
+}
+
+.header{
+    margin: 10px;
+    font-size: 57pt;
+    font-style: normal;
+    font-weight: normal;
+    color: #B592EC;
+    text-shadow: 0 4px 10px #B592EC;
+}
+
+.timer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.plus{
+    background: none;
+    border: none;
+    margin-left: 10px;
+}
+
+.minus{
+    background: none;
+    border: none;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.minutes{
+    width: 210px;
+    height: 210px;
+    color: #B592EC;
+    text-align: center;
+    font-size: 130pt;
+    font-weight: 300;
+    text-shadow: 0 4px 10px #B592EC;
+}
+
+.dots{
+    margin-bottom: 28px;
+    line-height: 90px;
+    font-size: 144px;
+    color: #B592EC;
+    text-shadow: 2px 2px 4px rgba(118, 51, 227, 0.42);
+}
+
+.seconds{
+    width: 210px;
+    height: 210px;
+    color: #B592EC;
+    font-weight: 300;
+    text-align: center;
+    font-size: 130pt;
+    text-shadow: 0 4px 10px #B592EC;
+}
+
+.controls{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 45px;
+    left: 5px;
+}
+.start{
+    background: none;
+    border: none;
+    margin-right: 15px;
+}
+.stop{
+    background: none;
+    border: none;
+    margin-left: 15px;
+}
+
+
